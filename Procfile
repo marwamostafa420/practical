@@ -1,1 +1,3 @@
-web gunicorn Clincal_tickets.wsgi:application --log-file -
+
+web gunicorn Admin.wsgi:application --log-file -
+web gunicorn Project.wsgi:application --log-file -
